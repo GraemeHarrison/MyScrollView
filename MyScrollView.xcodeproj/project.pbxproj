@@ -15,6 +15,7 @@
 		2E03E9141C56D8C800642741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E03E9121C56D8C800642741 /* LaunchScreen.storyboard */; };
 		2E03E91F1C56D8C800642741 /* MyScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03E91E1C56D8C800642741 /* MyScrollViewTests.m */; };
 		2E03E92A1C56D8C800642741 /* MyScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03E9291C56D8C800642741 /* MyScrollViewUITests.m */; };
+		2E03E9391C56E39200642741 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03E9381C56E39200642741 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2E03E9251C56D8C800642741 /* MyScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E03E9291C56D8C800642741 /* MyScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollViewUITests.m; sourceTree = "<group>"; };
 		2E03E92B1C56D8C800642741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E03E9371C56E39200642741 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		2E03E9381C56E39200642741 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2E03E9081C56D8C800642741 /* AppDelegate.m */,
 				2E03E90A1C56D8C800642741 /* ViewController.h */,
 				2E03E90B1C56D8C800642741 /* ViewController.m */,
+				2E03E9371C56E39200642741 /* MyScrollView.h */,
+				2E03E9381C56E39200642741 /* MyScrollView.m */,
 				2E03E90D1C56D8C800642741 /* Main.storyboard */,
 				2E03E9101C56D8C800642741 /* Assets.xcassets */,
 				2E03E9121C56D8C800642741 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E03E90C1C56D8C800642741 /* ViewController.m in Sources */,
+				2E03E9391C56E39200642741 /* MyScrollView.m in Sources */,
 				2E03E9091C56D8C800642741 /* AppDelegate.m in Sources */,
 				2E03E9061C56D8C800642741 /* main.m in Sources */,
 			);
